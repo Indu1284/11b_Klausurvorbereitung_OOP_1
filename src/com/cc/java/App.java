@@ -2,12 +2,15 @@ package com.cc.java;
 
 public class App {
     public static void main(String[] args) {
-      // to do
     
+    // test --> Referenzvariable / RAM-Adresse des Objekts/Instanz (object/instance)
+		// Test --> Referenztyp (reference type)
+		// Object <--> Instanz
+
+    Test test = new Test();
+    System.out.println("Referenzvariable: " + test);
+    test.showAddress();
 
     }
 
-    private static void ausgabe(String outStr) {
-        System.out.println(outStr);
-    }
 }
