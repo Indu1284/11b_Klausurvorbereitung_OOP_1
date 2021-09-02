@@ -1,5 +1,5 @@
 package com.cc.java;
-
+/*
 public class App {
     public static void main(String[] args) {
     
@@ -8,9 +8,26 @@ public class App {
 		// Object <--> Instanz
 
     Test test = new Test();
-    System.out.println("Referenzvariable: " + test);
-    test.showAddress();
+    //System.out.println("Referenzvariable: " + test);
+    //test.showAddress();
+    System.out.println(test.getCounter());
+    test.setCounter(2);
+    System.out.println(test.getCounter());
+
 
     }
+
+}
+*/
+
+public class App {
+  public static void main(String[] args) {
+Test test = new Test();
+System.out.println(test.getCounter());
+  test.setCounter(4);
+  System.out.println(test.getCounter());
+
+
+  }
 
 }
